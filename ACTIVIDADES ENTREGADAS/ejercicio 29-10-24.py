@@ -61,7 +61,6 @@ def buscarProducto():
         print("")
         input("Pulsa una tecla para continuar...")
     else:
-        precio = float(input("Precio del artículo: "))
         print(f"El producto '{nombre}' tiene un stock de {inventario[nombre]["cantidad"]} unidades, y {inventario[nombre]["precio"]} €.")
         print("")
         input("Pulsa una tecla para continuar...")
